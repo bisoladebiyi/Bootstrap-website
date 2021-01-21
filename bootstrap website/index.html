@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container-fluid">
+            <!-- fix a logo as the navbar-brand -->
+            <a href="" class="navbar-brand">~BURGERBASH~</a>
+            <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapse-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#top-pg" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#review" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="#cta" class="nav-link">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="top-section" id="top-pg">    
+            <img class="burger-img" src="images/burger.png" alt="">
+            <div class="buttons">
+                <a href="#"><button class="btn btn-md btn-light"><span class="fab fa-apple"></span> Download On iOS</button></a>
+                <a href="#"><button class="btn btn-md btn-dark"><span class="fab fa-google-play"></span> Download On Android</button></a>
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="container">
+                <div class="row">
+                    <div class="feature-box col-md-4">
+                        <i class="fas fa-download"></i>
+                        <h3>Download The App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quos ut ducimus, placeat dignissimos natus itaque consequatur! Vel, architecto suscipit.</p>
+                    </div>
+                    <div class="feature-box col-md-4">
+                        <i class="fas fa-gamepad"></i>
+                        <h3>Play The Game</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quos ut ducimus, placeat dignissimos natus itaque consequatur! Vel, architecto suscipit.</p>
+                    </div>
+                    <div class="feature-box col-md-4">
+                        <i class="fas fa-gifts"></i>
+                        <h3>Win Prizes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus quos ut ducimus, placeat dignissimos natus itaque consequatur! Vel, architecto suscipit.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="reviews-section" id="review">
+            <div id="reviews-carousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner"> 
+                    <div class="carousel-item active">
+                        <h3>" This game pretty weird, but sort of cool. I like it! lol "</h3>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                        <img class="carousel-item-img" src="images/frog.jpg" alt=""> <br>
+                        <em>Froggyson from Ohio</em>
+
+                    </div>
+                    <div class="carousel-item">
+                        <h3>" The creator of this game is a psychopath, why would you wanna bash a burger? "</h3>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                        <img class="carousel-item-img" src="images/cat.jpg" alt=""> <br>
+                        <em>Kittyson from Toronto</em>
+
+                    </div>
+                    <div class="carousel-item">
+                        <h3>" This game has helped me learn how to use a hammer. Time to break into homes 💃"</h3>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                        <img class="carousel-item-img" src="images/snake.jpeg" alt=""> <br>
+                        <em>Mamba from Florida</em>
+
+                    </div>
+                    <div class="carousel-item">
+                        <h3>" The order of stacking is wrong. Mayo on the pickle not before the pickle. I'm disappointed "</h3>
+                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                        <img class="carousel-item-img" src="images/lion.jpeg" alt=""> <br>
+                        <em>Leonard from Madagascar</em>
+
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#reviews-carousel" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#reviews-carousel" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+
+            </div>
+        </section>
+        <section id="cta">
+            <h1>Why eat burgers when you can bash them?</h1>
+            <a href="#"><button class="btn btn-md btn-light"><span class="fab fa-apple"></span> Download On iOS</button></a>
+            <a href="#"><button class="btn btn-md btn-dark"><span class="fab fa-google-play"></span> Download On Android</button></a>
+
+        </section>
+        <footer>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <p>Copyright © My Bootstrap Website </p>
+
+        </footer>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FAFAFA;
+    font-family: Montserrat;
+}
+
+/* navigation bar */
+nav {
+    background: #ffe9e3;
+}
+nav .container-fluid {
+    padding: 10px 40px;
+    z-index: 10;
+}
+
+/* top page */
+main .top-section {
+    width: 100%;
+    padding-bottom: 70px;
+    text-align: center;
+    background: #ffe9e3;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+main .top-section .burger-img {
+    width: 30%;
+    height: auto;
+    margin-top: 200px;
+ 
+}
+main .top-section .buttons {
+    text-align: center;
+    margin-top: 40px; 
+}
+main .top-section button {
+    box-shadow: 0px 0px 3px 0px grey;
+}
+main .top-section button:hover {
+    transition: box-shadow .3s ease;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+/* second section */
+main .second-section {
+    padding-bottom: 10%;
+    background-color: #f8f2f0;
+}
+main .second-section .row h3 {
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: #312c51;
+  
+}
+main .second-section .row p {
+    color: #a6a9b6;
+  
+}
+main .second-section .container {
+   text-align: center;
+   padding-top: 100px;
+   
+}
+main .second-section .row .fas {
+    font-size: 7rem;
+    padding-bottom: 40px;
+    color: #f1aa9b;
+    
+}
+main .second-section .row .fas:hover {
+    transition: color .3s ease;
+    color: #eb596e;
+}
+main .second-section .row .feature-box {
+    padding: 0 20px;
+}
+
+/* review section */
+main .reviews-section {
+    background: #f1aa9b;
+}
+
+main .reviews-section .carousel-item .fas, 
+main .reviews-section .carousel-item .far {
+    font-size: 1.5rem;
+    color: #feffdb;
+}
+main .reviews-section .carousel-item {
+    text-align: center;
+    padding: 150px;
+    color: white;
+    
+}
+main .reviews-section  .carousel-item img {
+    width: 20%;
+    height: auto;
+    margin: -10px 0 0 0;
+    padding-bottom: 10px;
+    border-radius: 100%;
+}
+main .reviews-section  .carousel-item h3 {
+    font-weight: bolder;
+}
+
+/* call to action section */
+main #cta {
+    background-color: #f8f2f0 ;
+    padding: 100px;
+    text-align: center;
+    color: #312c51;
+}
+main #cta h1 {
+    padding-bottom: 20px;
+}
+main #cta button {
+    box-shadow: 0px 0px 3px 0px grey;
+}
+main #cta button:hover {
+    transition: box-shadow .3s ease;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+/* footer */
+main footer {
+    text-align: center;
+    padding: 40px;
+    background: #ffe9e3;
+}
+main footer .fas, main footer .fab {
+    margin: 3px;
+    color: black;
+}
+main footer .fas:hover, main footer .fab:hover {
+    transition: opacity .3s ease;
+    opacity: .7;
+}
+main footer p {
+    font-size: .7rem;
+}
+
+/* media querys */
+@media (max-width: 500px) {
+
+    main .reviews-section .carousel-item h3 {
+    font-size: 18px;
+    }
+    main .reviews-section .carousel-item .fas, main .reviews-section .carousel-item .far {
+        font-size: 1rem;
+        
+    }
+    main .reviews-section .carousel-item {
+        padding: 68px;
+
+    }
+
+}
+@media (max-width: 1000px) {
+
+    main .reviews-section .carousel-item img {
+        width: 25%;
+        height: auto;
+        margin: 0;
+        padding-bottom: 10px;
+        border-radius: 100%;
+    }
+
+}
+@media (max-width: 992px) and (min-width: 768px) {
+
+    main .second-section .row .fas {
+        font-size: 6rem;
+        padding-bottom: 30px;
+        
+    }
+    main .second-section .row h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+      
+    }
+    main .second-section .row p {
+        font-size: 12px;
+    }
+
+}
+@media (max-width: 610px) {
+    main #cta button {
+        font-size: 0.5rem;
+        margin: 5px;
+    }
+    main #cta h1 {
+        padding-bottom: 10px;
+        font-size: 1.5rem;
+    }
+    main #cta {
+        padding: 50px;
+        
+    }
+}
+@media (max-width: 850px) and (min-width: 500px) {
+    main .top-section .burger-img {
+        width: 40%;
+        height: auto;
+        margin-top: 200px;
+        margin-left: 35%; 
+    }
+}
+@media (max-width: 500px) {
+    main .top-section .burger-img {
+        width: 50%;
+        height: auto;
+        margin-top: 200px;
+       
+    }
+}
+@media (max-width: 610px) {
+    main .top-section button {
+        font-size: .7rem;
+        margin: 3px;
+    }
+}
+
